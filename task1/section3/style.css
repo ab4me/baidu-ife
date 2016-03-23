@@ -1,0 +1,25 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size:16px;
+	font-family: "微软雅黑";
+}
+body{
+	padding: 20px;
+}
+#main{
+	padding: 20px;
+	background-color: #eee;
+	border:1px solid #999;
+	width: auto;
+	height: auto;
+}
+#logo{
+	padding: 20px;
+	width: 158px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+#logo p{
+	display: inline-block;
+}
