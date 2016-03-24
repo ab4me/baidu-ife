@@ -14,12 +14,29 @@ body{
 	width: auto;
 	height: auto;
 }
-#logo{
-	padding: 20px;
-	width: 158px;
-	background-color: #fff;
+#logo img{
+	display: block;
+}
+#logo {
 	border: 1px solid #999;
-}
-#logo p{
+	background-color: #fff;
 	display: inline-block;
+	width: 158px;
+	padding: 20px;
+	position: relative;
+	
 }
+#logo img{
+	display: block;
+}
+#name{
+	width: 60px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	word-wrap: break-word;
+	/*设置绝对定位，想象之后如果是长名字的话会超出边界，那么设定width来限定。
+	之后为了保持美观，两边及顶部留出20px 符合padding均为20px的设定，
+	而CSS3中word-wrap: break-word完美解决了超出边界自动换行的问题*/
+}	
+
